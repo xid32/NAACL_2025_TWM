@@ -1,0 +1,44 @@
+video_root: '/home/renshuhuai/data/Activitynet-QA/anet_6fps_224'
+ann_root: '/home/renshuhuai/data/Activitynet-QA/annos'
+dataset: 'activitynet_qa'
+
+# set pretrained as a file path or an url
+pretrained: '/home/renshuhuai/TESTA/pretrained/testa_model_base_pretrain.pth'
+
+# token merging
+token_merging: True
+testa_r: [1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,1,12,]
+merging_type: frame&patch
+
+# timesformer video encoder
+vit: 'timesformer'
+patch_size: 16
+learnable_temporal_scaling: False
+attention_type: 'divided_space_time'
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+vision_width: 768  # 1024
+num_heads: 12  # 16
+
+# vit video encoder
+#vit: 'base'
+#vit_grad_ckpt: False
+#vit_ckpt_layer: 0
+
+batch_size_train: 4
+batch_size_test: 32
+init_lr: 2e-5
+
+num_frames: 32
+num_frm_train: 32
+num_frm_test: 32
+
+image_size: 224
+
+k_test: 128
+inference: 'rank'
+
+# optimizer
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 10

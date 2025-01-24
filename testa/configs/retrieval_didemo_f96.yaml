@@ -1,0 +1,48 @@
+video_root: '/home/renshuhuai/data/didemo/didemo_30fps_224_trimed30/'
+ann_root: '/home/renshuhuai/data/didemo/'
+dataset: 'retrieval_didemo'
+
+# set pretrained as a file path or an url
+pretrained: '/home/renshuhuai/TESTA/pretrained/testa_model_base_pretrain.pth'
+
+# token merging
+token_merging: True
+testa_r: [4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,4,8,]
+merging_type: frame&patch
+
+max_words: 64
+
+# timesformer video encoder
+vit: 'timesformer'
+patch_size: 16
+learnable_temporal_scaling: False
+attention_type: 'divided_space_time'
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+vision_width: 768  # 1024
+num_heads: 12  # 16
+
+# vit video encoder
+#vit: 'base'
+#vit_grad_ckpt: False
+#vit_ckpt_layer: 0
+
+batch_size_train: 2
+batch_size_test: 8
+init_lr: 1e-5
+
+num_frames: 96
+num_frm_train: 96
+num_frm_test: 96
+
+image_size: 224
+queue_size: 32
+alpha: 0.4
+k_test: 128
+negative_all_rank: True
+
+# optimizer
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 10
+

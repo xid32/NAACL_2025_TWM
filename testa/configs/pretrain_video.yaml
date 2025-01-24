@@ -1,0 +1,28 @@
+train_file: ['/home/chensishuo/data/webvid/webvid_demo.json']
+
+
+
+# size of vit model; base or large
+vit: 'base'
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+
+image_size: 224
+batch_size: 4
+num_frm_train: 8
+max_words: 30
+
+queue_size: 57600
+alpha: 0.4
+
+# optimizer
+weight_decay: 0.05
+init_lr: 3e-4
+min_lr: 1e-6
+warmup_lr: 1e-6
+lr_decay_rate: 0.9
+max_epoch: 20
+warmup_steps: 3000
+
+
+

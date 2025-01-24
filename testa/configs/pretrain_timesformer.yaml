@@ -1,0 +1,33 @@
+train_file: ['/home/ma-user/work/renshuhuai/data/webvid/pretrain.json', '/home/ma-user/work/renshuhuai/data/cc3m/pretrain.json']
+
+# size of vit model; base or large
+vit: 'timesformer'
+patch_size: 16
+learnable_temporal_scaling: True
+attention_type: 'divided_space_time'
+
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+
+video_resize: 256
+image_size: 224
+batch_size: 12
+num_frames: 8
+num_frm_train: 8
+max_words: 30
+frm_sampling_strategy: 'headtail'
+
+queue_size: 57600
+alpha: 0.4
+
+# optimizer
+weight_decay: 0.05
+init_lr: 5e-06
+min_lr: 5e-07
+warmup_lr: 1e-6
+lr_decay_rate: 0.95
+max_epoch: 20
+warmup_steps: 5000
+
+
+
