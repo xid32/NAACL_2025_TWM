@@ -1,6 +1,6 @@
 # Temporal Working Memory: Query-Guided Segment Refinement for Enhanced Multimodal Understanding [NAACL 2025]
 
-[Xingjian Diao](https://xid32.github.io/), Chunhui Zhang, Weiyi Wu, Zhongyu Ouyang, Peijun Qing, Ming Cheng, Soroush Vosoughi, Jiang Gui
+**[Xingjian Diao](https://xid32.github.io/), Chunhui Zhang, Weiyi Wu, Zhongyu Ouyang, Peijun Qing, Ming Cheng, Soroush Vosoughi, Jiang Gui**
 
 [Full paper](https://xid32.github.io/images/publications/Temporal_Working_Memory.pdf)
 
@@ -31,8 +31,11 @@ This code repository includes implementations of the Temporal Working Memory (TW
 8. [Testa: Temporal-spatial token aggregation for long-form video-language understanding](https://arxiv.org/abs/2310.19060)
 9. [VindLU: A Recipe for Effective Video-and-Language Pretraining](https://arxiv.org/abs/2212.05051)
 
+## Acknowledgement
+We thank the open-sourced paper mentioned above for the authors' outstanding work.
+
 ## Citation
-If our work has been helpful to your research, would appreciate it if you could cite the following paper:
+If our work has been helpful to your research, we would appreciate it if you could cite the following paper:
 
 ```bash
 @inproceedings{diao2025temporal,
