@@ -8,7 +8,7 @@
 We introduce temporal working memory (TWM), which aims to enhance the temporal modeling capabilities of Multimodal foundation models (MFMs). It selectively retains task-relevant information across temporal dimensions, ensuring that critical details are preserved throughout the processing of video and audio content. The TWM uses a query-guided attention approach to focus on the most informative multimodal segments within temporal sequences. By retaining only the most relevant content, TWM optimizes the use of the model's limited capacity, enhancing its temporal modeling ability. This plug-and-play module can be easily integrated into existing MFMs. With our TWM, nine state-of-the-art models exhibit significant performance improvements across tasks such as video captioning, question answering, and video-text retrieval.
 
 <p align="center">
-<img src="/figs/TMW_pipeline.png" alt="Pipeline Figure" width="1200" height="300">
+<img src="/figs/TMW_pipeline.png" alt="Pipeline Figure" width="1200" height="380">
 </p>
 
 ## Project Overview
