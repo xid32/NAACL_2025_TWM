@@ -20,15 +20,15 @@ This code repository includes implementations of the Temporal Working Memory (TW
 3. **Training Temporal Working Memory (TWM)**: For each model, adjust the number of training epochs and relevant model-specific hyperparameters in the `main_alvs.py` file within each model’s directory. Follow the recommendations in each model's original paper for parameter settings, and then train TWM.
 4. **Inference**: Set `epochs = 0` in each model's `main_alvs.py` file, and run to utilize TWM.
 
-## Models and References
-1. [Cross-modal prompts: Adapting large pre-trained models for audio-visual downstream tasks](https://proceedings.neurips.cc/paper_files/paper/2023/file/af01716e08073368a7c8a62be46dba17-Paper-Conference.pdf)
-2. [Tackling data bias in music-avqa: Crafting a balanced dataset for unbiased question-answering](https://openaccess.thecvf.com/content/WACV2024/papers/Liu_Tackling_Data_Bias_in_MUSIC-AVQA_Crafting_a_Balanced_Dataset_for_WACV_2024_paper.pdf)
-3. [Vision transformers are parameter-efficient audio-visual learners](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Vision_Transformers_Are_Parameter-Efficient_Audio-Visual_Learners_CVPR_2023_paper.pdf)
+## References [Paper] and [Model Name]
+1. [Vision transformers are parameter-efficient audio-visual learners](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Vision_Transformers_Are_Parameter-Efficient_Audio-Visual_Learners_CVPR_2023_paper.pdf) (LAVisH)
+2. [Cross-modal prompts: Adapting large pre-trained models for audio-visual downstream tasks](https://proceedings.neurips.cc/paper_files/paper/2023/file/af01716e08073368a7c8a62be46dba17-Paper-Conference.pdf) (DG-SCT)
+3. [Tackling data bias in music-avqa: Crafting a balanced dataset for unbiased question-answering](https://openaccess.thecvf.com/content/WACV2024/papers/Liu_Tackling_Data_Bias_in_MUSIC-AVQA_Crafting_a_Balanced_Dataset_for_WACV_2024_paper.pdf) (LAST-Att)
 4. [Action knowledge for video captioning with graph neural networks](https://www.sciencedirect.com/science/article/pii/S1319157823000666)
 5. [Git: A generative image-to-text transformer for vision and language](https://arxiv.org/abs/2205.14100)
 6. [Narrativebridge: Enhancing video captioning with causal-temporal narrative](https://arxiv.org/abs/2406.06499)
 7. [Learning video context as interleaved multimodal sequences](https://arxiv.org/abs/2407.21757)
-8. [Testa: Temporal-spatial token aggregation for long-form video-language understanding](https://arxiv.org/abs/2310.19060)
+8. [Testa: Temporal-spatial token aggregation for long-form video-language understanding](https://arxiv.org/abs/2310.19060) 
 9. [VindLU: A Recipe for Effective Video-and-Language Pretraining](https://arxiv.org/abs/2212.05051)
 
 ## Acknowledgement
