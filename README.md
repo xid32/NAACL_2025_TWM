@@ -20,7 +20,7 @@ This code repository includes implementations of the Temporal Working Memory (TW
 3. **Training Temporal Working Memory (TWM)**: For each model, adjust the number of training epochs and relevant model-specific hyperparameters in the `main_alvs.py` file within each model’s directory. Follow the recommendations in each model's original paper for parameter settings, and then train TWM.
 4. **Inference**: Set `epochs = 0` in each model's `main_alvs.py` file, and run to utilize TWM.
 
-## References [Paper] and (Model Name)
+## References [Paper] (Model Name)
 1. [Vision Transformers are Parameter-Efficient Audio-Visual Learners](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Vision_Transformers_Are_Parameter-Efficient_Audio-Visual_Learners_CVPR_2023_paper.pdf) (LAVisH)
 2. [Cross-modal Prompts: Adapting Large Pre-trained Models for Audio-Visual Downstream Tasks](https://proceedings.neurips.cc/paper_files/paper/2023/file/af01716e08073368a7c8a62be46dba17-Paper-Conference.pdf) (DG-SCT)
 3. [Tackling Data Bias in MUSIC-AVQA: Crafting a Balanced Dataset for Unbiased
