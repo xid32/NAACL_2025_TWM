@@ -41,8 +41,7 @@ We thank the open-sourced paper mentioned above for the authors' outstanding wor
 ## Citation
 If our work has been helpful to your research, we would appreciate it if you could cite the following paper:
 
-```
-bash
+```bash
 @inproceedings{diao2025twm,
 title={Temporal Working Memory: Query-Guided Segment Refinement for
 Enhanced Multimodal Understanding},
