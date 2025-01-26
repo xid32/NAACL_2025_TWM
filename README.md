@@ -41,7 +41,8 @@ We thank the open-sourced paper mentioned above for the authors' outstanding wor
 ## Citation
 If our work has been helpful to your research, we would appreciate it if you could cite the following paper:
 
-`
+```
+bash
 @inproceedings{diao2025twm,
 title={Temporal Working Memory: Query-Guided Segment Refinement for
 Enhanced Multimodal Understanding},
@@ -49,7 +50,7 @@ author={Diao, Xingjian and Zhang, Chunhui and Wu, Weiyi and Ouyang, Zhongyu and 
 booktitle={Findings of the Association for Computational Linguistics: NAACL 2025},
 year={2025}
 }
-`
+```
 
 ## Contact
 If you have any questions, suggestions, or bug reports, please contact
