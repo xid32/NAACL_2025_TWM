@@ -2,7 +2,7 @@
 
 **[Xingjian Diao](https://xid32.github.io/), Chunhui Zhang, Weiyi Wu, Zhongyu Ouyang, Peijun Qing, Ming Cheng, Soroush Vosoughi, Jiang Gui**
 
-[[Full paper]](https://xid32.github.io/images/publications/Temporal_Working_Memory.pdf)
+[[Full paper]](https://arxiv.org/pdf/2502.06020)
 
 ## Introduction
 We introduce **temporal working memory** (TWM), which aims to enhance the temporal modeling capabilities of Multimodal foundation models (MFMs). It selectively retains task-relevant information across temporal dimensions, ensuring that critical details are preserved throughout the processing of video and audio content. The TWM uses a query-guided attention approach to focus on the most informative multimodal segments within temporal sequences. By retaining only the most relevant content, TWM optimizes the use of the model's limited capacity, enhancing its temporal modeling ability. This plug-and-play module can be easily integrated into existing MFMs. With our TWM, nine state-of-the-art models exhibit significant performance improvements across **question answering**, **video captioning**, and **video-text retrieval** tasks.
